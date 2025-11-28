@@ -13,3 +13,18 @@ body {
     margin: 0;
     padding: 20px;
 }
+/* Dark Theme */
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark header {
+    background-color: #1e1e1e;
+}
+
+#theme-toggle {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
